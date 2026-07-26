@@ -1,9 +1,25 @@
 aid: dingdong-maicai
 name: Dingdong Maicai
-description: 'Dingdong Maicai is a company surfaced as a portfolio company of softbank-vision-fund and
-  added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Dingdong Maicai (叮咚买菜), operated by Shanghai Yibai Mi Network Technology Co., Ltd., is
+  a Chinese on-demand fresh grocery e-commerce and delivery platform. It runs a mobile-app marketplace
+  for fresh produce, meat, seafood, prepared foods, and daily groceries, backed by a network of front-line
+  neighborhood micro-fulfillment stations that enable fast, same-hour delivery in major Chinese cities.
+  The company is publicly listed on the NYSE (ticker DDL) and was backed by SoftBank Vision Fund. It is a
+  consumer-facing operation with no public developer program or open API surface; this profile is a network
+  lead maintained by the API Evangelist enrichment pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/dingdong-maicai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.100.me/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +28,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Grocery
+- E-commerce
+- Food Delivery
+- Retail
+- Fresh Produce
+- China
 apis: []
+common:
+- type: DomainSecurity
+  url: security/dingdong-maicai-domain-security.yml
+- type: Website
+  url: https://www.100.me/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
