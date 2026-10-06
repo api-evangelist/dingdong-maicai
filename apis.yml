@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Consumer
@@ -60,6 +60,8 @@ tags_raw:
 - China
 apis: []
 common:
+- url: https://www.100.me/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/dingdong-maicai-domain-security.yml
 - type: Website
