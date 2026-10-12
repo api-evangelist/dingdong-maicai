@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/dingdong-maicai/integrations
+- https://n8n.io/integrations/dingdong-maicai/
+- https://composio.dev/toolkits/dingdong-maicai
+- https://monid.ai/tools/dingdong-maicai
+checked:
+- https://composio.dev/toolkits/dingdong-maicai
+- https://monid.ai/tools/dingdong-maicai
+- https://n8n.io/integrations/dingdong-maicai/
+- https://zapier.com/apps/dingdong-maicai/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
